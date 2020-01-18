@@ -11,8 +11,8 @@
       <!-- Blog Entries Column -->
       <div class="col-md-8">
 
-        <h1 class="my-4">Page Heading
-          <small>Secondary Text</small>
+        <h1 class="my-4">PHP Programming 
+          <small>More Study Here! </small>
         </h1>
 
         <!-- Blog Post -->
@@ -21,7 +21,7 @@
           
           <div class="card-body">
             <h2 class="card-title">{{ $post->title }}</h2>
-            <a href="{{ route('computerlesson.show', $post->id) }}" class="btn btn-primary">Read More &rarr;</a>
+            <a href="{{ route('cplugprogramming.show', $post->id) }}" class="btn btn-primary">Read More &rarr;</a>
             
             
           </div>
@@ -56,19 +56,19 @@
 
         <!-- Categories Widget -->
         <div class="card my-4">
-          <h5 class="card-header" style="text-align: center; font-size: 40px; color: #228B22;">Study More Here!</h5>
+          <h5 class="card-header">Categories</h5>
           <div class="card-body">
             <div class="row">
               <div class="col-lg-6">
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="{{url('/phpprogramming')}}">PhP Programming </a>
+                    <a href="#">Web Design</a>
                   </li>
                   <li>
-                    <a href="{{url('/assignment')}}">C++ Programming</a>
+                    <a href="{{url('/assignment')}}">Assignment Paper</a>
                   </li>
                   <li>
-                    <a href="{{url('/assignment')}}">Android Programming</a>
+                    <a href="{{url('/assignment')}}">Assignment Paper</a>
                   </li>
                 </ul>
               </div>

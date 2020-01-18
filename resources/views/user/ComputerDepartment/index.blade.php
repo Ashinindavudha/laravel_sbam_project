@@ -4,7 +4,7 @@
 
    @section('main-content')
 <!-- Page Content -->
-  <div class="container">
+  <div class="container mt-5">
 
     <div class="row">
 
@@ -12,16 +12,17 @@
       <div class="col-md-8">
 
         <div class="card text-center">
+          <h1 class="btn btn-secondary" style="font-size: 40px; color: #fff"> !! Click Here !!</h1>
   <div class="card-header">
     <ul class="nav nav-tabs card-header-tabs">
       <li class="nav-item">
         <a class="nav-link btn btn-outline-primary" href="{{url('/phpprogramming')}}">PHP Programming</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link btn btn-outline-warning" href="{{url('/cplugprogramming')}}">C++ Programming</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#">C++ Programming</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Android Programming</a>
+        <a class="nav-link btn btn-outline-success" href="{{url('/androidlesson')}}">Android Programming</a>
       </li>
     </ul>
   </div>

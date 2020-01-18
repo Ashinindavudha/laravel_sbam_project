@@ -51,6 +51,9 @@
              <li class=""><a href="{{route('computer.index')}}"><i class="fa fa-circle-o"></i> ComputerDepartment</a></li>
              <li class=""><a href="{{route('lesson.index')}}"><i class="fa fa-circle-o"></i> Computer Lesson</a></li>
              <li class=""><a href="{{route('programming.index')}}"><i class="fa fa-circle-o"></i> PHP Programming Lesson</a></li>
+             <li class=""><a href="{{route('cplug.index')}}"><i class="fa fa-circle-o"></i> C++ Programming Lesson</a></li>
+             <li class=""><a href="{{route('android.index')}}"><i class="fa fa-circle-o"></i> Android Programming Lesson</a></li>
+
 
 
 
